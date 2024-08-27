@@ -1,0 +1,10 @@
+fastapi
+joblib
+numpy
+pandas
+pydantic
+pydantic_core
+scikit-learn 
+scipy
+tensorflow
+uvicorn
