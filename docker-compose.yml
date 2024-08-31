@@ -1,0 +1,12 @@
+services:
+
+  ai-service:
+    build: ./
+    image: predictservice
+    ports:
+      - 8000:8000
+    command: python main.py
+    #volumes: 
+    #  - ./:/usr/src/app
+
+      
